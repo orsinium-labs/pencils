@@ -14,6 +14,7 @@ from ._palettes import (
     CNPalette,
     USPalette,
     GBPalette,
+    SocialPalette,
 )
 from ._color import Color
 from ._colors import Colors
@@ -37,6 +38,7 @@ __all__ = [
     'CNPalette',
     'USPalette',
     'GBPalette',
+    'SocialPalette',
 
     'Palette',
     'Color',

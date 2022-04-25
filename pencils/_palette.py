@@ -14,10 +14,10 @@ C = TypeVar('C', bound='type[Colors]')
 class Palette(Generic[C]):
     id: str
     name: str
-    emoji: str
-    emojis: list[str]
     colors: C
 
+    emoji: str = ""
+    emojis: list[str] = []
     author: str = ""
     url: str = ""
     dribbble: str = ""

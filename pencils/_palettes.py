@@ -154,3 +154,11 @@ GBPalette = Palette(
     emojis=["☕️", "👨🏻‍🎤", "🌂", "💂🏼"],
     colors=_colors.GBColors,
 )
+
+SocialPalette = Palette(
+    id="social",
+    author="7Span",
+    name="Social",
+    url="https://materialui.co/socialcolors/",
+    colors=_colors.SocialColors,
+)
