@@ -1,8 +1,16 @@
+from __future__ import annotations
 from enum import Enum
+from random import choice
 from ._color import Color
 
 
-class DefoColors(Enum):
+class Colors(Enum):
+    @classmethod
+    def random_color(cls) -> Color:
+        return choice(list(cls)).value  # type: ignore
+
+
+class DefoColors(Colors):
     turquoise = Color(name="Turquoise", hex="#1abc9c")
     emerald = Color(name="Emerald", hex="#2ecc71")
     peter_river = Color(name="Peter river", hex="#3498db")
@@ -25,7 +33,7 @@ class DefoColors(Enum):
     asbestos = Color(name="Asbestos", hex="#7f8c8d")
 
 
-class USColors(Enum):
+class USColors(Colors):
     light_greenish_blue = Color(name="Light Greenish Blue", hex="#55efc4")
     faded_poster = Color(name="Faded Poster", hex="#81ecec")
     green_darner_tail = Color(name="Green Darner Tail", hex="#74b9ff")
@@ -48,7 +56,7 @@ class USColors(Enum):
     dracula_orchid = Color(name="Dracula Orchid", hex="#2d3436")
 
 
-class AUColors(Enum):
+class AUColors(Colors):
     beekeeper = Color(name="Beekeeper", hex="#f6e58d")
     spiced_nectarine = Color(name="Spiced Nectarine", hex="#ffbe76")
     pink_glamour = Color(name="Pink Glamour", hex="#ff7979")
@@ -71,7 +79,7 @@ class AUColors(Enum):
     wizard_grey = Color(name="Wizard Grey", hex="#535c68")
 
 
-class GBColors(Enum):
+class GBColors(Colors):
     protoss_pylon = Color(name="Protoss Pylon", hex="#00a8ff")
     periwinkle = Color(name="Periwinkle", hex="#9c88ff")
     rise_n_shine = Color(name="Rise-N-Shine", hex="#fbc531")
@@ -94,7 +102,7 @@ class GBColors(Enum):
     electromagnetic = Color(name="Electromagnetic", hex="#2f3640")
 
 
-class CAColors:
+class CAColors(Colors):
     jigglypuff = Color(name="Jigglypuff", hex="#ff9ff3")
     casandora_yellow = Color(name="Casandora Yellow", hex="#feca57")
     pastel_red = Color(name="Pastel Red", hex="#ff6b6b")
@@ -117,7 +125,7 @@ class CAColors:
     imperial_primer = Color(name="Imperial Primer", hex="#222f3e")
 
 
-class CNColors(Enum):
+class CNColors(Colors):
     golden_sand = Color(name="Golden Sand", hex="#eccc68")
     coral = Color(name="Coral", hex="#ff7f50")
     wild_watermelon = Color(name="Wild Watermelon", hex="#ff6b81")
@@ -140,7 +148,7 @@ class CNColors(Enum):
     twinkle_blue = Color(name="Twinkle Blue", hex="#ced6e0")
 
 
-class NLColors(Enum):
+class NLColors(Colors):
     sunflower = Color(name="Sunflower", hex="#FFC312")
     energos = Color(name="Energos", hex="#C4E538")
     blue_martina = Color(name="Blue Martina", hex="#12CBC4")
@@ -163,7 +171,7 @@ class NLColors(Enum):
     magenta_purple = Color(name="Magenta Purple", hex="#6F1E51")
 
 
-class FRColors(Enum):
+class FRColors(Colors):
     flat_flesh = Color(name="Flat Flesh", hex="#fad390")
     melon_melody = Color(name="Melon Melody", hex="#f8c291")
     livid = Color(name="Livid", hex="#6a89cc")
@@ -186,7 +194,7 @@ class FRColors(Enum):
     reef_encounter = Color(name="Reef Encounter", hex="#079992")
 
 
-class DEColors(Enum):
+class DEColors(Colors):
     fusion_red = Color(name="Fusion Red", hex="#fc5c65")
     orange_hibiscus = Color(name="Orange Hibiscus", hex="#fd9644")
     flirtatious = Color(name="Flirtatious", hex="#fed330")
@@ -209,7 +217,7 @@ class DEColors(Enum):
     blue_horizon = Color(name="Blue Horizon", hex="#4b6584")
 
 
-class INColors(Enum):
+class INColors(Colors):
     orchid_orange = Color(name="Orchid Orange", hex="#FEA47F")
     spiro_disco_ball = Color(name="Spiro Disco Ball", hex="#25CCF7")
     honey_glow = Color(name="Honey Glow", hex="#EAB543")
@@ -232,7 +240,7 @@ class INColors(Enum):
     highlighter_lavender = Color(name="Highlighter Lavender", hex="#82589F")
 
 
-class RUColors(Enum):
+class RUColors(Colors):
     creamy_peach = Color(name="Creamy Peach", hex="#f3a683")
     rosy_highlight = Color(name="Rosy Highlight", hex="#f7d794")
     soft_blue = Color(name="Soft Blue", hex="#778beb")
@@ -255,7 +263,7 @@ class RUColors(Enum):
     biscay = Color(name="Biscay", hex="#303952")
 
 
-class ESColors(Enum):
+class ESColors(Colors):
     jacksons_purple = Color(name="Jacksons Purple", hex="#40407a")
     c64_purple = Color(name="C64 Purple", hex="#706fd3")
     swan_white = Color(name="Swan White", hex="#f7f1e3")
@@ -278,7 +286,7 @@ class ESColors(Enum):
     desert = Color(name="Desert", hex="#ccae62")
 
 
-class SEColors(Enum):
+class SEColors(Colors):
     highlighter_pink = Color(name="Highlighter Pink", hex="#ef5777")
     dark_periwinkle = Color(name="Dark Periwinkle", hex="#575fcf")
     megaman = Color(name="Megaman", hex="#4bcffa")
@@ -301,7 +309,7 @@ class SEColors(Enum):
     black_pearl = Color(name="Black Pearl", hex="#1e272e")
 
 
-class TRColors(Enum):
+class TRColors(Colors):
     bright_lilac = Color(name="Bright Lilac", hex="#cd84f1")
     pretty_please = Color(name="Pretty Please", hex="#ffcccc")
     light_red = Color(name="Light Red", hex="#ff4d4d")

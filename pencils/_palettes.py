@@ -2,7 +2,7 @@ from ._palette import Palette
 from . import _colors
 
 
-Defo = Palette(
+DefoPalette = Palette(
     id="defo",
     author="Flat UI Colors",
     name="Flat UI Palette v1",
@@ -12,7 +12,7 @@ Defo = Palette(
 )
 
 
-NL = Palette(
+NLPalette = Palette(
     id="nl",
     author="Jeroen Van Eerden",
     name="Dutch Palette",
@@ -23,7 +23,7 @@ NL = Palette(
     colors=_colors.NLColors,
 )
 
-TR = Palette(
+TRPalette = Palette(
     id="tr",
     author="Tamer Köseli",
     name="Turkish Palette",
@@ -34,7 +34,7 @@ TR = Palette(
     colors=_colors.TRColors,
 )
 
-IN = Palette(
+INPalette = Palette(
     id="in",
     author="Ranganath Krishnamani",
     name="Indian Palette",
@@ -45,7 +45,7 @@ IN = Palette(
     colors=_colors.INColors,
 )
 
-SE = Palette(
+SEPalette = Palette(
     id="se",
     author="Jesper Dahlqvist",
     name="Swedish Palette",
@@ -56,7 +56,7 @@ SE = Palette(
     colors=_colors.SEColors,
 )
 
-CA = Palette(
+CAPalette = Palette(
     id="ca",
     author="Dmitri Litvinov",
     name="Canadian Palette",
@@ -67,7 +67,7 @@ CA = Palette(
     colors=_colors.CAColors,
 )
 
-AU = Palette(
+AUPalette = Palette(
     id="au",
     author="Kate Hoolahan",
     name="Aussie Palette",
@@ -78,7 +78,7 @@ AU = Palette(
     colors=_colors.AUColors,
 )
 
-RU = Palette(
+RUPalette = Palette(
     id="ru",
     author="Alexander Zaytsev",
     name="Russian Palette",
@@ -89,7 +89,7 @@ RU = Palette(
     colors=_colors.RUColors,
 )
 
-FR = Palette(
+FRPalette = Palette(
     id="fr",
     author="Léa Poisson",
     name="French Palette",
@@ -100,7 +100,7 @@ FR = Palette(
     colors=_colors.FRColors,
 )
 
-ES = Palette(
+ESPalette = Palette(
     id="es",
     author="Miguel Camacho",
     name="Spanish Palette",
@@ -111,7 +111,7 @@ ES = Palette(
     colors=_colors.ESColors,
 )
 
-DE = Palette(
+DEPalette = Palette(
     id="de",
     author="Martin David",
     name="German Palette",
@@ -122,7 +122,7 @@ DE = Palette(
     colors=_colors.DEColors,
 )
 
-CN = Palette(
+CNPalette = Palette(
     id="cn",
     author="Wenjun",
     name="Chinese Palette",
@@ -133,7 +133,7 @@ CN = Palette(
     colors=_colors.CNColors,
 )
 
-US = Palette(
+USPalette = Palette(
     id="us",
     author="Kevin Yang",
     name="American Palette",
@@ -144,7 +144,7 @@ US = Palette(
     colors=_colors.USColors,
 )
 
-GB = Palette(
+GBPalette = Palette(
     id="gb",
     author="Jan Losert",
     name="British Palette",
