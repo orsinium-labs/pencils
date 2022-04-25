@@ -1,3 +1,5 @@
+"""A collection of color palettes.
+"""
 from ._palette import Palette
 from ._palettes import (
     DefoPalette,
@@ -27,6 +29,7 @@ from ._rgb import RGB
 from ._registry import random_palette, PALETTES
 
 
+__version__ = "0.1.0"
 __all__ = [
     'DefoPalette',
     'NLPalette',

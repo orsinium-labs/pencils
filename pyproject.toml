@@ -1,0 +1,39 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pencils"
+authors = [
+    {name = "Gram", email = "gram@orsinium.dev"},
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.7"
+dynamic = ["version", "description"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Topic :: Software Development",
+]
+keywords = [
+    "colors",
+    "palettes",
+    "art",
+    "design",
+    "color",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+lint = [
+    "flake8",
+    "mypy",
+    "isort",
+]
+
+[project.urls]
+Source = "https://github.com/orsinium-labs/pencils"

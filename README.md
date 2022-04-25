@@ -12,9 +12,11 @@ Currently available palettes:
 
 Features:
 
++ A lot of colors from manually picked palettes.
 + 100% type safe.
 + Best integration with IDEs, autocomplete all the way down.
 + Includes multiple representations (HEX, [RGB](https://en.wikipedia.org/wiki/RGB_color_model), [HSL](https://en.wikipedia.org/wiki/HSL_and_HSV)) for each color.
++ Zero-dependency.
 
 Installatiion:
 
