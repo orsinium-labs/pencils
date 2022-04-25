@@ -8,6 +8,7 @@ from ._hsl import HSL
 
 @dataclass
 class Color:
+    name: str
     hex: str
 
     @cached_property
