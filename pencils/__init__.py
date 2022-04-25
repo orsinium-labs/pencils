@@ -17,6 +17,7 @@ from ._palettes import (
     SocialPalette,
     MetroPalette,
     CSSPalette,
+    TailwindPalette,
 )
 from ._color import Color
 from ._colors import Colors
@@ -43,6 +44,7 @@ __all__ = [
     'SocialPalette',
     'MetroPalette',
     'CSSPalette',
+    'TailwindPalette',
 
     'Palette',
     'Color',

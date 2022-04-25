@@ -178,3 +178,11 @@ CSSPalette = Palette(
     url="https://github.com/bahamas10/css-color-names",
     colors=_colors.CSSColors,
 )
+
+TailwindPalette = Palette(
+    id="tailwind",
+    author="Steve Schoger",
+    name="Tailwind",
+    url="https://tailwindcolor.com/",
+    colors=_colors.TailwindColors,
+)
