@@ -35,7 +35,7 @@ pencils.NLPalette.colors.sunflower.value.hex
 # 'FFC312'
 ```
 
-The color: <span style="color:#FFC312">◼◼◼</span>
+The color: <span style="color:#FFC312">███</span>
 
 That's a lot of attributes and each one of them has a meaning:
 
@@ -54,7 +54,7 @@ color.hex
 # '664c00'
 ```
 
-The color: <span style="color:#664c00">◼◼◼</span>
+The color: <span style="color:#664c00">███</span>
 
 Get random color from a random palette:
 
@@ -63,4 +63,4 @@ pencils.random_palette().random_color()
 # Color(name='Unmellow Yellow', hex='fffa65')
 ```
 
-The color: <span style="color:#fffa65">◼◼◼</span>
+The color: <span style="color:#fffa65">███</span>
