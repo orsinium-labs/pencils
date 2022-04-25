@@ -59,3 +59,7 @@ class RGB:
     @property
     def floats(self) -> tuple[float, float, float]:
         return (self.red / 255, self.green / 255, self.blue / 255)
+
+    @property
+    def css(self) -> str:
+        return f'rgb({self.red}, {self.green}, {self.blue})'

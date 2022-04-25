@@ -162,3 +162,11 @@ SocialPalette = Palette(
     url="https://materialui.co/socialcolors/",
     colors=_colors.SocialColors,
 )
+
+MetroPalette = Palette(
+    id="metro",
+    author="7Span",
+    name="Metro",
+    url="https://materialui.co/metrocolors",
+    colors=_colors.MetroColors,
+)

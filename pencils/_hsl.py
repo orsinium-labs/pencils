@@ -2,7 +2,7 @@ from __future__ import annotations
 from colorsys import hls_to_rgb
 from typing import TYPE_CHECKING
 
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 
 if TYPE_CHECKING:
     from ._rgb import RGB
@@ -38,3 +38,11 @@ class HSL:
     @property
     def hex(self) -> str:
         return self.rgb.hex
+
+    def make_darker(self, by: float = .2) -> HSL:
+        lightness = max(self.lightness - by, 0.0)
+        return replace(self, lightness=lightness)
+
+    def make_lighter(self, by: float = .2) -> HSL:
+        lightness = min(self.lightness + by, 1.0)
+        return replace(self, lightness=lightness)

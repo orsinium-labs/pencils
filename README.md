@@ -5,7 +5,7 @@ Pancils is a Python library with a colletion of color palettes.
 Currently available palettes:
 
 + Everything from [flatuicolors.com](https://flatuicolors.com/)
-+ Some palettes from [materialui.co](https://materialui.co/)
++ Most of the palettes from [materialui.co](https://materialui.co/)
 
 Features:
 

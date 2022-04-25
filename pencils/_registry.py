@@ -23,6 +23,7 @@ PALETTES: tuple[Palette, ...] = (
     _palettes.USPalette,
     _palettes.GBPalette,
     _palettes.SocialPalette,
+    _palettes.MetroPalette,
 )
 
 
