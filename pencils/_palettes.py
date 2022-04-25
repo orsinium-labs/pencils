@@ -186,3 +186,11 @@ TailwindPalette = Palette(
     url="https://tailwindcolor.com/",
     colors=_colors.TailwindColors,
 )
+
+BootstrapPalette = Palette(
+    id="bootstrap",
+    author="Bootstrap team",
+    name="Bootstrap",
+    url="https://getbootstrap.com/docs/5.0/customize/color/",
+    colors=_colors.BootstrapColors,
+)

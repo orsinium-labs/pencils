@@ -7,6 +7,7 @@ Currently available palettes:
 + Everything from [flatuicolors.com](https://flatuicolors.com/)
 + Most of the palettes from [materialui.co](https://materialui.co/)
 + [Tailwind](https://tailwindcss.com/) color palette.
++ [Bootstrap](https://getbootstrap.com/) color palette.
 + CSS (HTML) color names.
 
 Features:

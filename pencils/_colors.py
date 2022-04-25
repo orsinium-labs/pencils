@@ -567,3 +567,37 @@ class TailwindColors(Colors):
     gray = Color(name="Gray", hex="71717a")
     cool_gray = Color(name="Cool Gray", hex="6b7280")
     blue_gray = Color(name="Blue Gray", hex="64748b")
+
+
+class BootstrapColors(Colors):
+    blue = Color(name="blue", hex="0d6efd")
+    indigo = Color(name="indigo", hex="6610f2")
+    purple = Color(name="purple", hex="6f42c1")
+    pink = Color(name="pink", hex="d63384")
+    red = Color(name="red", hex="dc3545")
+    orange = Color(name="orange", hex="fd7e14")
+    yellow = Color(name="yellow", hex="ffc107")
+    green = Color(name="green", hex="198754")
+    teal = Color(name="teal", hex="20c997")
+    cyan = Color(name="cyan", hex="0dcaf0")
+
+    white = Color(name="white", hex="ffffff")
+    gray100 = Color(name="gray-100", hex="f8f9fa")
+    gray200 = Color(name="gray-200", hex="e9ecef")
+    gray300 = Color(name="gray-300", hex="dee2e6")
+    gray400 = Color(name="gray-400", hex="ced4da")
+    gray500 = Color(name="gray-500", hex="adb5bd")
+    gray600 = Color(name="gray-600", hex="6c757d")
+    gray700 = Color(name="gray-700", hex="495057")
+    gray800 = Color(name="gray-800", hex="343a40")
+    gray900 = Color(name="gray-900", hex="212529")
+    black = Color(name="black", hex="000000")
+
+    primary = blue
+    secondary = gray600
+    success = green
+    info = cyan
+    warning = yellow
+    danger = red
+    light = gray100
+    dark = gray900

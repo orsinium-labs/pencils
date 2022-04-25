@@ -26,6 +26,7 @@ PALETTES: tuple[Palette, ...] = (
     _palettes.MetroPalette,
     _palettes.CSSPalette,
     _palettes.TailwindPalette,
+    _palettes.BootstrapPalette,
 )
 
 

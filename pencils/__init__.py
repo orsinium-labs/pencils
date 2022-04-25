@@ -18,6 +18,7 @@ from ._palettes import (
     MetroPalette,
     CSSPalette,
     TailwindPalette,
+    BootstrapPalette,
 )
 from ._color import Color
 from ._colors import Colors
@@ -45,6 +46,7 @@ __all__ = [
     'MetroPalette',
     'CSSPalette',
     'TailwindPalette',
+    'BootstrapPalette',
 
     'Palette',
     'Color',
