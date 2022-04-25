@@ -13,8 +13,6 @@ class Color:
 
     @cached_property
     def rgb(self) -> RGB:
-        """The color representation as a tuple of ints from 0 to 255.
-        """
         assert len(self.hex) == 6
         return RGB(
             int(self.hex[:2], 16),

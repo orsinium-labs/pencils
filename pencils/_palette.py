@@ -1,7 +1,7 @@
 from __future__ import annotations
 from typing import TYPE_CHECKING, Generic, TypeVar
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 if TYPE_CHECKING:
     from ._color import Color
@@ -17,7 +17,7 @@ class Palette(Generic[C]):
     colors: C
 
     emoji: str = ""
-    emojis: list[str] = []
+    emojis: list[str] = field(default_factory=list)
     author: str = ""
     url: str = ""
     dribbble: str = ""
