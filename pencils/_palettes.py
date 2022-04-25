@@ -170,3 +170,11 @@ MetroPalette = Palette(
     url="https://materialui.co/metrocolors",
     colors=_colors.MetroColors,
 )
+
+CSSPalette = Palette(
+    id="css",
+    author="bahamas10",
+    name="CSS",
+    url="https://github.com/bahamas10/css-color-names",
+    colors=_colors.CSSColors,
+)

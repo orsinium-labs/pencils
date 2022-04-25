@@ -15,6 +15,8 @@ from ._palettes import (
     USPalette,
     GBPalette,
     SocialPalette,
+    MetroPalette,
+    CSSPalette,
 )
 from ._color import Color
 from ._colors import Colors
@@ -39,6 +41,8 @@ __all__ = [
     'USPalette',
     'GBPalette',
     'SocialPalette',
+    'MetroPalette',
+    'CSSPalette',
 
     'Palette',
     'Color',

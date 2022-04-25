@@ -6,6 +6,7 @@ Currently available palettes:
 
 + Everything from [flatuicolors.com](https://flatuicolors.com/)
 + Most of the palettes from [materialui.co](https://materialui.co/)
++ CSS (HTML) color names.
 
 Features:
 

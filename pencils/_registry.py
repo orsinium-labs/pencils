@@ -24,6 +24,7 @@ PALETTES: tuple[Palette, ...] = (
     _palettes.GBPalette,
     _palettes.SocialPalette,
     _palettes.MetroPalette,
+    _palettes.CSSPalette,
 )
 
 
